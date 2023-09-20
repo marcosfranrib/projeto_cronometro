@@ -10,32 +10,37 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, hsl(235, 16%, 14%),
-     hsl(236, 21%, 26%));
+    background: radial-gradient(#2b1f57, #15082c);
 }
 
 #container-cronometro{
-    width: 311.5px;
+    width: 311.5px; 
+    z-index: 1; 
+}
+
+#circulo{
+    position: absolute;
+    padding: 160px;
+    border: 3px solid;
+    border-radius: 50%;
 }
 
 #container-geral{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    margin-top: 5rem;
+    height: 55vh;
+  
 }
 
 #indicadores{
-
     text-align: center;
-
 }
 
 #contadores{
     display: flex;
     justify-content: center;
-  
 }
 
 
@@ -47,7 +52,7 @@ body{
 }
 
 .relogio{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 button{
@@ -61,16 +66,9 @@ button{
     color: black;
 }
 
-#play{
-    color: rgb(122, 196, 140);
-}
-
-#pause{
-    color: rgb(209, 153, 112);
-}
-
-#stop{
-    color: rgb(136, 55, 55);
+#play,#pause,#stop{
+    font-size: 30px;
+    color: #292850;
 }
 
 #iniciar,#pausar,#zerar{

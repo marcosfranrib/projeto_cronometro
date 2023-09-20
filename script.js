@@ -1,7 +1,7 @@
 
-const minuto = document.querySelector('.minuto')
-const segundo = document.querySelector('.segundo')
-const milisegundo = document.querySelector('.milisegundo')
+const minuto = document.querySelector('.minuto');
+const segundo = document.querySelector('.segundo');
+const milisegundo = document.querySelector('.milisegundo');
 const iniciar = document.querySelector('#iniciar');
 const pausar  = document.querySelector('#pausar');
 const zerar   = document.querySelector('#zerar');
