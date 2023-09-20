@@ -10,7 +10,8 @@
 }
 
 body{
-    background-color: #2e2c2c;
+    background-image: linear-gradient(to bottom, hsl(235, 16%, 14%),
+     hsl(236, 21%, 26%));
 }
 
 #container-cronometro{
@@ -50,6 +51,7 @@ body{
 }
 
 button{
+    cursor: pointer;
     width: 100px;
     height: 50px;
     padding: 15px;
