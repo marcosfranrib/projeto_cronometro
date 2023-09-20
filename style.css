@@ -39,6 +39,9 @@ body{
 
 
 #seletores{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
     margin-top: 15px;
 }
 
@@ -48,18 +51,30 @@ body{
 
 button{
     width: 100px;
+    height: 50px;
     padding: 15px;
 }
 
-#iniciar{
-    color:black;
-
+.material-symbols-rounded{
+    color: black;
 }
 
-#pausar{
-    color:black;
+#play{
+    color: rgb(122, 196, 140);
 }
 
-#zerar{
+#pause{
+    color: rgb(209, 153, 112);
+}
+
+#stop{
+    color: rgb(136, 55, 55);
+}
+
+#iniciar,#pausar,#zerar{
     color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

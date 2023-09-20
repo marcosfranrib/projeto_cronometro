@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronometro</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,600,1,0" />
 </head>
 <body>
         <section id="container-geral">
@@ -16,13 +17,18 @@
                     <div class="milisegundo relogio">00</div>
                 </div>
 
-                
                 <p id="seletores">
-                   
-
-                    <button id="iniciar">Play</button>
-                    <button id="pausar">Pause</button>
-                    <button id="zerar">Restart</button>
+                    <button id="iniciar">
+                        <span class="material-symbols-rounded" id="play">play_arrow</span>
+                    </button>
+                    
+                    <button id="pausar">
+                        <span class="material-symbols-rounded" id="pause">pause</span>
+                    </button>
+                    
+                    <button id="zerar">
+                        <span class="material-symbols-rounded" id="stop">stop</span>
+                    </button>
                 </p>
             
             </section>
