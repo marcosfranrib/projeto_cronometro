@@ -29,8 +29,8 @@ function trocarTimer(){
 }
 
 function exibir(){
-    minuto.innerHTML = `${zeroE(minute)} :`
-    segundo.innerHTML = `${zeroE(second)} : `
+    minuto.innerHTML = `${zeroE(minute)}:`
+    segundo.innerHTML = `${zeroE(second)}:`
     milisegundo.innerHTML = `${zeroE(milisecond)}`
     milisecond++
     
@@ -60,9 +60,9 @@ pausar.addEventListener('click',()=>{
 })
 
 zerar.addEventListener('click',()=>{
-    minuto.innerHTML = '00 :'
-    segundo.innerHTML = ' 00 :'
-    milisegundo.innerHTML = ' 00'
+    minuto.innerHTML = '00:'
+    segundo.innerHTML = '00:'
+    milisegundo.innerHTML = '00'
     contador = 0;
     clearInterval(intervalo)
 })
